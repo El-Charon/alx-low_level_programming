@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * The main function is the entry point of the program.
+ * main - Entry point of the program.
  *
- * @return 0 indicating successful execution.
+ * This function prints a message to the console.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
