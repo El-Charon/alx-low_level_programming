@@ -3,9 +3,10 @@
 #include <stdio.h>
 /**
 main : entry point
-rand : Pick random number and check if n is equal or higher then 0 or less then 0 
- then print the output
- */
+rand : random select a number
+if exceptions to compare n to 0
+return - always successful (0)
+*/
 int main(void)
 {
 	int n;
