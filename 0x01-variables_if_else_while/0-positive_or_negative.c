@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 main : entry point
 rand : Pick random number and check if n is equal or higher then 0 or less then 0 
