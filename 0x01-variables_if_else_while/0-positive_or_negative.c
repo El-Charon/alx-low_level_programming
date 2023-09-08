@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-main : entry point
-rand : random select a number
-if exceptions to compare n to 0
-return - always successful (0)
+ * main - Entry point of the program.
+ *
+ * This program generates a random number and compares it to 0. It then outputs
+ * the result of the comparison and returns.
+ *
+ * Return: 0 upon successful execution.
 */
 int main(void)
 {
