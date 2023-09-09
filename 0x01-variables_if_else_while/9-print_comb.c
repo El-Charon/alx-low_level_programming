@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program.
  *
- * This program prints numbers from 0 to 9 gradually separated by , and a space.
+ * This program prints numbers from 0 to 9 gradually separated by , and a ' '
  * and returns.
  *
  * Return: 0 upon successful execution.
@@ -12,11 +12,11 @@
 int main(void)
 {
 	int anumb;
-	
+
 	for (anumb = 0; anumb <= 9; anumb++)
 	{
 		putchar('0' + anumb);
-		if(anumb < 9)
+		if (anumb < 9)
 		{
 		putchar(',');
 		putchar(' ');
