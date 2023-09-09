@@ -16,8 +16,11 @@ int main(void)
 	for (anumb = 0; anumb <= 9; anumb++)
 	{
 		putchar('0' + anumb);
+		if(anumb < 9)
+		{
 		putchar(',');
 		putchar(' ');
+		}
 	}
 		putchar('\n');
 	return (0);
