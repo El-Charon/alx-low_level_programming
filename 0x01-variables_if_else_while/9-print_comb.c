@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/**
+ * main - Entry point of the program.
+ *
+ * This program prints numbers from 0 to 9 gradually separated by , and a space.
+ * and returns.
+ *
+ * Return: 0 upon successful execution.
+*/
+int main(void)
+{
+	int anumb, bnumb;
+	
+	for (anumb = 0; anumb <= 9; anumb++)
+	for (bnumb = 0; bnumb <= 9; bnumb++)
+	{
+	{
+		putchar('0' + anumb);
+		putchar(', ');
+		putchar('0' + bnumb);
+	}
+	}
+		putchar('\n');
+	return (0);
+}
