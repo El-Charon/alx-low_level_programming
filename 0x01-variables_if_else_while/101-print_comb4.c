@@ -3,10 +3,12 @@
 #include <stdlib.h>
 
 /**
- * Main - Entry Point
- * In this program we will print all possible different combinations
- * of three diferents digits 
- * Return : Always 0 ( Sucess)
+ * main - Entry point of the program
+ *
+ * Description: This program prints all possible different combinations
+ * of two digits in ascending order, separated by ", ".
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
