@@ -28,11 +28,8 @@ int main(void)
 			putchar(l);
 		if (j == '2' && k == '8')
 			continue;
-if (j != '7' && k != '8' && l != '9')
-{
 		putchar(',');
 		putchar(' ');
-}
 		}
 	}
 	}
