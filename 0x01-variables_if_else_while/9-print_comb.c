@@ -14,13 +14,10 @@ int main(void)
 	int anumb, bnumb;
 	
 	for (anumb = 0; anumb <= 9; anumb++)
-	for (bnumb = 0; bnumb <= 9; bnumb++)
-	{
 	{
 		putchar('0' + anumb);
 		putchar(',' + ' ');
 		putchar('0' + bnumb);
-	}
 	}
 		putchar('\n');
 	return (0);
