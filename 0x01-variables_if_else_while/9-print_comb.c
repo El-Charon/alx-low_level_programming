@@ -18,7 +18,7 @@ int main(void)
 	{
 	{
 		putchar('0' + anumb);
-		putchar(', ');
+		putchar(',' + ' ');
 		putchar('0' + bnumb);
 	}
 	}
