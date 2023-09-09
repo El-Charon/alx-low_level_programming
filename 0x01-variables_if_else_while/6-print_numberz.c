@@ -11,12 +11,12 @@
 */
 int main(void)
 {
-	char anumb;
+	int anumb;
 
-	for (anumb = '0'; anumb <= '9'; anumb++)
+	for (anumb = 0; anumb <= 9; anumb++)
 
 	{
-		putchar(anumb);
+		putchar('0' + anumb);
 	}
 		putchar('\n');
 	return (0);
