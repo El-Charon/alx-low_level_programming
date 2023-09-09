@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-  * main - Entry Point
+  * Main - Entry Point
   * In this program we will print all possible different combinations
   * of three diferents digits 
   * Return : Always 0 ( Sucess)
