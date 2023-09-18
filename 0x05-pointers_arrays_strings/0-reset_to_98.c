@@ -1,17 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - check the code
  *
- * Return: Always 0.
+ * Return: Always 
  */
-int main(void)
+
+void reset_to_98(int *n)
 {
-	int number = 1;
-
-    reset_to_98(&number);
-
-    printf("After: %d\n", number);
-
-    return 0;
+	*n = 98;
 }
