@@ -6,17 +6,21 @@
  * Return: the int converted from the string
  */
 
-int main(int argc, char *argv[])
-{
-	int a, b;
+int main(int argc, char *argv[]) {
+    if (argc != 3) {
+        printf("Error\n");
+        return 1;
+    }
 
-	if (argc != 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	a = _ab(argv[1]);
-	b = _ab(argv[2]);
-	printf("%d\n", a * b);
-	return (0);
+    // Convert the command-line arguments to integers
+    int num1 = _ab(argv[1]);
+    int num2 = _ab(argv[2]);
+
+    // Perform the multiplication
+    int result = num1 * num2;
+
+    // Print the result
+    printf("%d\n", result);
+
+    return 0;
 }
