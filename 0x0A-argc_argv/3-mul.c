@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 
     // Convert the command-line arguments to integers
     int num1 = atoi(argv[1]);
-    int num2 = atoi(argv[2);
+    int num2 = atoi(argv[2]);
 
     // Perform the multiplication
     int result = num1 * num2;
