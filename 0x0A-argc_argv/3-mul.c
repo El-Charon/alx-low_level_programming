@@ -6,18 +6,17 @@
  * Return: the int converted from the string
  */
 
-int main(int argc, char *argv[]) {
-    if (argc != 3) {
-        printf("Error\n");
-        return 1;
-    }
+int main(int argc, char *argv[])
+{
+	int a, b;
 
-    int num1 = _atoi(argv[1]);
-    int num2 = _atoi(argv[2]);
-
-    int result = num1 * num2;
-
-    printf("%d\n", result);
-
-    return 0;
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	a = _atoi(argv[1]);
+	b = _atoi(argv[2]);
+	printf("%d\n", a * b);
+	return (0);
 }
