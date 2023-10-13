@@ -12,14 +12,11 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Convert the command-line arguments to integers
     int num1 = _ab(argv[1]);
     int num2 = _ab(argv[2]);
 
-    // Perform the multiplication
     int result = num1 * num2;
 
-    // Print the result
     printf("%d\n", result);
 
     return 0;
