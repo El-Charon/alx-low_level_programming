@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -22,6 +25,6 @@ int main(int argc, char *argv[])
 	b = _atoi(argv[2]);
 
 	printf("%d\n", a * b);
-	
+
 	return (0);
 }
