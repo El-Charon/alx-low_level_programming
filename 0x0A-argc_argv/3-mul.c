@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _ab - converts a string to an integer
+ * _atoi - converts a string to an integer
  * @s: string to be converted
  * Return: the int converted from the string
  */
@@ -12,8 +12,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    int num1 = _ab(argv[1]);
-    int num2 = _ab(argv[2]);
+    int num1 = _atoi(argv[1]);
+    int num2 = _atoi(argv[2]);
 
     int result = num1 * num2;
 
