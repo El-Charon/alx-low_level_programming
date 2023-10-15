@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * Main - Check if the correct number of command-line arguments is provided if not Return an error code
+ * Main - Check if the correct number of command-line arguments
+ * is provided if not Return an error code.
  * @a & @b: Convert the first and second argument to an integer.
- * Return: Print the result of multiplying a and b
+ * Return: Print the result of multiplying a and b.
  */
 
 int main(int argc, char *argv[])
