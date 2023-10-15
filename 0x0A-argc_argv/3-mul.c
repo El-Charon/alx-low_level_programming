@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Check if the correct number of command-line arguments
+ * main - Entry point of the program.
+ *
+ * @argc: The number of command-line arguments.
+ * @argv: An array of strings containing the command-line arguments.
  * is provided using argc if not Return an error code.
  * @a & @b: Convert the first and second argument to an integer using agrv.
  * Return: Print the result of multiplying a and b.
