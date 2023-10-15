@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * atoi - converts a string to an integer
- * @s: string to be converted
- * Return: the int converted from the string
+ * Main - Check if the correct number of command-line arguments is provided if not Return an error code
+ * @a & @b: Convert the first and second argument to an integer.
+ * Return: Print the result of multiplying a and b
  */
 
 int main(int argc, char *argv[])
