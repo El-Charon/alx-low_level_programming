@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * Main - Check if the correct number of command-line arguments
- * is provided if not Return an error code.
- * @a & @b: Convert the first and second argument to an integer.
+ * main - Check if the correct number of command-line arguments
+ * is provided using argc if not Return an error code.
+ * @a & @b: Convert the first and second argument to an integer using agrv.
  * Return: Print the result of multiplying a and b.
  */
 
