@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _ML_
+#define _ML_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,7 +11,6 @@
  * @len: length of the string
  * @next: points to the next node
  * Description: singly linked list node structure
- * for Holberton project
  */
 
 typedef struct list_s
